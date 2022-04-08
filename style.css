@@ -21,6 +21,27 @@ body {
     flex-direction: column;
 }
 
+.title_item {
+    height: 50vh;
+    text-align: center;
+}
+
+.title_item:nth-child(1) {
+    background-color: #ff00ff;
+}
+
+.title_item:nth-last-child(1) {
+    background-color: #1900ff;
+    transform: rotate(180deg);
+}
+
+.title_item span {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding: 5px;
+    font-size: 25px;
+}
+
 .info {
     background-color: #ff0400;
 }

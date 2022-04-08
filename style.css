@@ -106,4 +106,17 @@ body {
 
 .info {
     background-color: #ff0400;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px repeat(6, 1fr);
+}
+
+.radio_box {
+    grid-column: 1/-1;
+}
+
+.info_box {
+    border-top: 2px solid;
+    margin: 10px;
+    padding: 10px;
 }
